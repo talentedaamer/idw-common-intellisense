@@ -2,6 +2,7 @@
     "name": "idw-common-vscode",
     "displayName": "idw-common-vscode",
     "description": "Code Snippets for CUIC Library",
+    "icon": "angular.png",
     "publisher": "talentedaamer",
     "version": "1.0.3",
     "engines": {
