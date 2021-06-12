@@ -6,7 +6,7 @@ This is a code snippet extension for idw-common angular library. Installing the 
 
 Provide power usage of idw-common angular library.
 
-\!\[idw-button\]\(demo/01-idw-button-demo.gif\)
+\!\[idw-button\]\(https://raw.githubusercontent.com/talentedaamer/idw-common-vscode/main/demo/01-idw-button-demo.gif\)
 
 ## How to Use.
 
