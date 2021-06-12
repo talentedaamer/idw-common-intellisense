@@ -3,9 +3,9 @@
     "displayName": "idw-common-vscode",
     "description": "Code Snippets for CUIC Library",
     "publisher": "talentedaamer",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "engines": {
-        "vscode": "^1.57.0"
+        "vscode": "^1.10.0"
     },
     "categories": [
         "Snippets"

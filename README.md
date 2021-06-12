@@ -1,16 +1,21 @@
-# idw-common-vscode README
+# idw-common-vscode
 
-This is a code snippet extension for ID-ware, Snippets help integrate internal ID-ware CUIC Components library easily. This extension has no use for other uses.
+This is a code snippet extension for idw-common angular library. Installing the extension will add autocomplete of all available components in idw-common library.
 
 ## Features
 
 Provide power usage of idw-common angular library.
 
-\!\[feature X\]\(images/feature-x.png\)
+\!\[idw-button\]\(demo/01-idw-button-demo.gif\)
 
-## Release Notes
+## How to Use.
 
-Extension is not released yet.
+This extension has code completion for the following components.
+1. idw-button
+2. idw-heading
+3. idw-icon
+
+After installing the extension. type `idw` in any component.html file and it will show all available idw-common components. press `tab` to continue. Pressing tab will traverse the properties and their assigned values, properties and methods. 
 
 ### 1.0.1
 
