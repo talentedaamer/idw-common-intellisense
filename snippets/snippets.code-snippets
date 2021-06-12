@@ -1,4 +1,5 @@
 {
+    // idw-heading component
     "idw-heading": {
         "prefix": ["idw-heading", "heading", "cuic"],
         "body": [
@@ -13,6 +14,7 @@
         "description": "CUIC Heading - Defines a idw-heading component.",
         "scope": "text.html"
     },
+    // idw-button component
     "idw-button": {
         "prefix": ["idw-button", "button", "cuic"],
         "body": [
@@ -27,6 +29,7 @@
         "description": "CUIC Button - Defines a idw-button component.",
         "scope": "text.html"
     },
+    // idw-icon component
     "idw-icon": {
         "prefix": ["idw-icon", "icon", "cuic"],
         "body": [
