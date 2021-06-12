@@ -1,0 +1,45 @@
+{
+    "idw-heading": {
+        "prefix": ["idw-heading", "heading", "cuic"],
+        "body": [
+            "$BLOCK_COMMENT_START start:${1:main}-heading $BLOCK_COMMENT_END",
+            "<idw-heading",
+            "type=\"${2|h1,h2,h3,h4,h5,h6|}\"",
+            "color=\"${3:#000000}\"",
+            "text=\"${4:Main Heading Text}\"></idw-heading>",
+            "$BLOCK_COMMENT_START end:${1:main}-heading $BLOCK_COMMENT_END",
+            "$0"
+        ],
+        "description": "CUIC Heading - Defines a idw-heading component.",
+        "scope": "text.html"
+    },
+    "idw-button": {
+        "prefix": ["idw-button", "button", "cuic"],
+        "body": [
+            "$BLOCK_COMMENT_START start:${1:action}-button $BLOCK_COMMENT_END",
+            "<idw-button",
+            "type=\"${2|raised,stroked,fab,mini-fab|}\"",
+            "buttonClass=\"${3:custom-class}\"",
+            "(isClicked)=\"idw${4:Action}ButtonClick()\">${5:Button Text}</idw-button>",
+            "$BLOCK_COMMENT_START end:${1:action}-button $BLOCK_COMMENT_END",
+            "$0"
+        ],
+        "description": "CUIC Button - Defines a idw-button component.",
+        "scope": "text.html"
+    },
+    "idw-icon": {
+        "prefix": ["idw-icon", "icon", "cuic"],
+        "body": [
+            "$BLOCK_COMMENT_START start:${1:name}-icon $BLOCK_COMMENT_END",
+            "<idw-icon",
+            "type=\"${2|icon,svg|}\"",
+            "iconname=\"${3:home}\"",
+            "size=\"${4:24}\"",
+            "color=\"${5:#000000}\">${6:...svg code if type svg...}</idw-icon>",
+            "$BLOCK_COMMENT_START end:${1:name}-icon $BLOCK_COMMENT_END",
+            "$0"
+        ],
+        "description": "CUIC Icon - Defines a idw-icon component.",
+        "scope": "text.html"
+    },
+}

@@ -1,0 +1,21 @@
+{
+    "name": "idw-common-vscode",
+    "displayName": "idw-common-vscode",
+    "description": "Code Snippets for CUIC Library",
+    "publisher": "Aamer Shahzad",
+    "version": "1.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
